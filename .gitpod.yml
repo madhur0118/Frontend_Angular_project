@@ -1,0 +1,5 @@
+tasks:
+  - init: |
+     npm install
+     npm install -g @angular/cli
+    command: echo 'start angular script/commands'
