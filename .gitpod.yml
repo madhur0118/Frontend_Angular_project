@@ -1,7 +1,8 @@
 tasks:
-  - init: |
+  - before: |
      npm install
      npm install -g @angular/cli
+    init: ng serve --open
     command: echo 'start angular script/commands'
 github:
   prebuilds:
